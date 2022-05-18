@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Teste </h1>
+    <h1>Teste {{$nome}} </h1>
 </body>
-</html><?php /**PATH C:\xampp\htdocs\Laravel\resources\views/welcome.blade.php ENDPATH**/ ?>
+</html>
