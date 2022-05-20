@@ -22,14 +22,14 @@
         <?php $__env->endSlot(); ?>
         Editar
     <?php echo $__env->renderComponent(); ?>
-    
+
     <?php $__env->startComponent('components.botao'); ?>
         <?php $__env->slot('cor'); ?>
             red
         <?php $__env->endSlot(); ?>
-            Deletar
+        Deletar
     <?php echo $__env->renderComponent(); ?>
-
+   
 
     <?php echo $html; ?>
 

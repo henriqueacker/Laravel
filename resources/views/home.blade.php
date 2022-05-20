@@ -22,14 +22,14 @@
         @endslot
         Editar
     @endcomponent
-    
+
     @component('components.botao')
         @slot('cor')
             red
         @endslot
-            Deletar
+        Deletar
     @endcomponent
-
+   
 
     {!! $html !!}
 </body>
