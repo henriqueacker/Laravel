@@ -35,6 +35,7 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '74f78b6b99713ff89d56028b614df71a' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/common/customFunctions.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
@@ -46,6 +47,10 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'Z' => 
+        array (
+            'Zxing\\' => 6,
         ),
         'W' => 
         array (
@@ -118,6 +123,7 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         ),
         'L' => 
         array (
+            'Libern\\QRCodeReader\\' => 20,
             'League\\MimeTypeDetection\\' => 25,
             'League\\Flysystem\\' => 17,
             'League\\Config\\' => 14,
@@ -186,8 +192,12 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'Zxing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib',
         ),
         'Whoops\\' => 
         array (
@@ -331,8 +341,8 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -369,6 +379,10 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Libern\\QRCodeReader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/libern/qr-code-reader/src',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
@@ -519,6 +533,7 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -3061,6 +3076,7 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         'League\\MimeTypeDetection\\GeneratedExtensionToMimeTypeMap' => __DIR__ . '/..' . '/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php',
         'League\\MimeTypeDetection\\MimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/MimeTypeDetector.php',
         'League\\MimeTypeDetection\\OverridingExtensionToMimeTypeMap' => __DIR__ . '/..' . '/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php',
+        'Libern\\QRCodeReader\\QRCodeReader' => __DIR__ . '/..' . '/libern/qr-code-reader/src/QRCodeReader.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
@@ -5517,6 +5533,21 @@ class ComposerStaticInit3f3a424c8327d6c2b23e53e5c4a0eddf
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+        'Zxing\\Binarizer' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/Binarizer.php',
+        'Zxing\\BinaryBitmap' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/BinaryBitmap.php',
+        'Zxing\\ChecksumException' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/ChecksumException.php',
+        'Zxing\\FormatException' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/FormatException.php',
+        'Zxing\\GDLuminanceSource' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/GDLuminanceSource.php',
+        'Zxing\\IMagickLuminanceSource' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/IMagickLuminanceSource.php',
+        'Zxing\\LuminanceSource' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/LuminanceSource.php',
+        'Zxing\\NotFoundException' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/NotFoundException.php',
+        'Zxing\\PlanarYUVLuminanceSource' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/PlanarYUVLuminanceSource.php',
+        'Zxing\\QrReader' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/QrReader.php',
+        'Zxing\\RGBLuminanceSource' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/RGBLuminanceSource.php',
+        'Zxing\\Reader' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/Reader.php',
+        'Zxing\\ReaderException' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/ReaderException.php',
+        'Zxing\\Result' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/Result.php',
+        'Zxing\\ResultPoint' => __DIR__ . '/..' . '/libern/qr-code-reader/src/lib/ResultPoint.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',

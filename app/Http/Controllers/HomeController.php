@@ -11,13 +11,14 @@ class HomeController extends Controller{
         $data = [
             'id'=> $request->id
         ];
-        return view('login',$data);
+        return view('login', $data);
     }
 
     public function exibirNome(){
         $nome = "teste";
         $data = [
-            'nome'=> $nome
+            'nome'=> $nome,
+            'html'=> '<h1>Teste!</h1>'
         ];
         return view('home',$data);
     }

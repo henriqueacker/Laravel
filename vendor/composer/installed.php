@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'fa2c121c90732fcdba04e46bedbf0a24e1e32d67',
+        'reference' => '05c8bcf4f27fe19b2fa9c50c7befe26b5dc21040',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -400,16 +400,16 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'fa2c121c90732fcdba04e46bedbf0a24e1e32d67',
+            'reference' => '05c8bcf4f27fe19b2fa9c50c7befe26b5dc21040',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
-            'pretty_version' => 'v1.14.5',
-            'version' => '1.14.5.0',
+            'pretty_version' => 'v1.14.6',
+            'version' => '1.14.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/sail',
             'aliases' => array(),
-            'reference' => '1da083e30e6b0d646535c0afc2afeffdccb7181d',
+            'reference' => 'f00f3a8f83e71436d473cda7700ae7b4b68d26cc',
             'dev_requirement' => true,
         ),
         'laravel/sanctum' => array(
@@ -473,6 +473,15 @@
             'install_path' => __DIR__ . '/../league/mime-type-detection',
             'aliases' => array(),
             'reference' => 'ff6248ea87a9f116e78edd6002e39e5128a0d4dd',
+            'dev_requirement' => false,
+        ),
+        'libern/qr-code-reader' => array(
+            'pretty_version' => 'v1.0.10',
+            'version' => '1.0.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../libern/qr-code-reader',
+            'aliases' => array(),
+            'reference' => '4589a5e1535e49fc72e0e4a2334f067b4c662eb3',
             'dev_requirement' => false,
         ),
         'mockery/mockery' => array(
@@ -766,8 +775,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(

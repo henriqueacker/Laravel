@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>TTE</h1>
+    <h1>Teste {{$id}}</h1>
 </body>
 </html>

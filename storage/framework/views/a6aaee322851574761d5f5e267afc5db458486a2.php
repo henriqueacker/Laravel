@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>TTE</h1>
+    <h1>Teste <?php echo e($id); ?></h1>
 </body>
 </html><?php /**PATH C:\xampp\htdocs\Laravel\resources\views/login.blade.php ENDPATH**/ ?>

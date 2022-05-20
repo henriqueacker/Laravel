@@ -1641,17 +1641,17 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.14.5",
-            "version_normalized": "1.14.5.0",
+            "version": "v1.14.6",
+            "version_normalized": "1.14.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "1da083e30e6b0d646535c0afc2afeffdccb7181d"
+                "reference": "f00f3a8f83e71436d473cda7700ae7b4b68d26cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/1da083e30e6b0d646535c0afc2afeffdccb7181d",
-                "reference": "1da083e30e6b0d646535c0afc2afeffdccb7181d",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/f00f3a8f83e71436d473cda7700ae7b4b68d26cc",
+                "reference": "f00f3a8f83e71436d473cda7700ae7b4b68d26cc",
                 "shasum": ""
             },
             "require": {
@@ -1660,7 +1660,7 @@
                 "illuminate/support": "^8.0|^9.0",
                 "php": "^7.3|^8.0"
             },
-            "time": "2022-05-16T18:13:03+00:00",
+            "time": "2022-05-18T15:56:59+00:00",
             "bin": [
                 "bin/sail"
             ],
@@ -2252,6 +2252,59 @@
                 }
             ],
             "install-path": "../league/mime-type-detection"
+        },
+        {
+            "name": "libern/qr-code-reader",
+            "version": "v1.0.10",
+            "version_normalized": "1.0.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/libern/qr-code-reader.git",
+                "reference": "4589a5e1535e49fc72e0e4a2334f067b4c662eb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/libern/qr-code-reader/zipball/4589a5e1535e49fc72e0e4a2334f067b4c662eb3",
+                "reference": "4589a5e1535e49fc72e0e4a2334f067b4c662eb3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "time": "2020-12-10T06:12:07+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/lib/common/customFunctions.php"
+                ],
+                "psr-4": {
+                    "Zxing\\": "src/lib/",
+                    "Libern\\QRCodeReader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Libern Lin",
+                    "email": "libernlin@gmail.com"
+                }
+            ],
+            "description": "Simple PHP QR Code Reader / Decoder",
+            "homepage": "https://github.com/libern/qr-code-reader",
+            "keywords": [
+                "laravel",
+                "qr code decoder",
+                "qr code reader"
+            ],
+            "support": {
+                "issues": "https://github.com/libern/qr-code-reader/issues",
+                "source": "https://github.com/libern/qr-code-reader/tree/v1.0.10"
+            },
+            "install-path": "../libern/qr-code-reader"
         },
         {
             "name": "mockery/mockery",
